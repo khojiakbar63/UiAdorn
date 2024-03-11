@@ -1,0 +1,56 @@
+header{
+   z-index: 100;
+   font-family: "Indie Flower", cursive;
+   height: 80px;
+   background-color: #0c2c57a9;
+   backdrop-filter: blur(10px);
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+}
+.nav {
+   height: 80px;
+   .logo_wrapper{
+      display: flex;
+      align-items: center;
+      .bxl-tux{
+         font-size: 40px;
+         color: #fff;
+      }
+      span{
+         font-size: 30px;
+      }
+   }
+   .list{
+      .item{
+
+         a{
+            text-decoration: none;
+            color: #fff;
+            font-size: 24px;
+            padding: 16px 10px;
+            transition: .3s;
+
+            &:hover{
+               color: #FC6736;
+            }
+         }
+      }
+   }
+   .login{
+      color: #fff;
+      text-decoration: none;
+      font-size: 24px;
+      padding: 16px 10px;
+      transition: .3s;
+      .bx-right-arrow-alt{
+         font-size: 18px;
+      }
+      &:hover{
+         color: #FC6736;
+      }
+   }
+
+}
+

@@ -1,0 +1,172 @@
+#products {
+   height: auto;
+   position: relative;
+   h4{
+      font-size: 32px;
+      color: #FC6736;
+      margin: 30px 0;
+   }
+   // Ratios
+   #ratios_section{
+      height: 80vh;
+      background-image: linear-gradient(to bottom, #FC6736  0%, #76ABAE 100%);
+      display: flex;
+      align-items: center;
+      background-color: #B5C0D0;
+      img{
+         width: 500px;
+      }
+      .wrapper{
+
+         .left{
+            width: 200px;
+            .menu-list{
+               list-style-type: none;
+               border-top: transparent;
+               padding: 20px;
+            
+               .list-item a{
+                  width: 100px;
+                  text-decoration: none;
+                  color: #1D24CA;
+                  margin-bottom: 20px;
+                  display: inline-block;
+                  padding: 10px 40px 10px 0;
+                  font-size: 20px;
+                  border-bottom: #35374B 1px solid;
+                  border-bottom-width: 1px;
+                  transition: all .2s ease-in-out;
+                  &:hover {
+                     width: 150px;
+      
+                  }
+               }
+            }
+
+         }
+         .right{
+            padding: 40px;
+            height: 51.3vh;
+            width: 80%;
+            overflow-y: scroll;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            background-color: #0C2D57;
+            border: #0c0604 2px solid;
+            .items{
+               margin-top: 400px;
+               height: 1000vh;
+
+               .samples{
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: start;
+                  align-items: end;
+                  gap: 20px;
+                  color:#FC6736;
+                  margin-bottom: 50px;
+                  padding-bottom: 40px;
+                  border-bottom: #FC6736 1px solid;
+               }
+            }
+            pre{
+               color: #F7B449;
+               display: flex;
+               align-items: center;
+               justify-content: left;
+               padding: 20px 0;
+
+            }
+         }
+      }
+   }
+   .left{
+      .menu-list{
+         left: 10px;
+         position: fixed;
+         left: 0px;
+         top: 100px;
+      }
+   }
+
+// Buttons
+   #buttons_section{
+      height: 130vh;
+      background-color: #CCD3CA;
+      display: flex;
+      align-items: center;
+      .wrapper{
+         padding: 40px;
+         height: 100vh;
+         width: 80%;
+         overflow-y: scroll;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: end;
+         background-color: #0C2D57;
+         border: #0c0604 2px solid;
+         margin-left: 200px;
+         .items:nth-child(1){
+            margin-top: 80px;
+            height: 150vh;
+            .samples{
+               margin-bottom: 20px;
+               padding-bottom: 30px;
+               border-bottom: #FC6736 2px solid;
+            }
+         }
+         code{
+            color: #F7B449;
+
+         }
+
+      }
+   }
+// Cards
+   #cards_section{
+      height: 200vh;
+      background-color: #F5E8DD;
+      padding-top: 150px;
+      .wrapper{
+         padding: 40px;
+         height: 170vh;
+         width: 80%;
+         overflow-y: scroll;
+         display: grid;
+         place-content: center;
+         background-color: #0C2D57;
+         border: #0c0604 2px solid;
+         margin-left: 300px;
+         .card{
+            margin-bottom: 20px;
+         }
+      }
+   }
+   // Borders
+   #borders_section{
+      height: 80vh;
+      padding-left: 200px;
+      padding-top: 100px;
+      background-color: $bg-sage;
+
+      .wrapper{
+         width: 80%;
+         height: 500px;
+         background-color: #0C2D57;
+         overflow-y: scroll;
+         .items{
+            padding: 20px;
+            h4{
+               margin: 20px 0 ;
+            }
+            .samples{
+               padding-bottom: 50px;
+               border-bottom: #FC6736 1px solid;
+            }
+         }
+      }
+   }
+}

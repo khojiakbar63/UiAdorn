@@ -1,7 +1,9 @@
 #about {
    padding-top: 80px;
    height: 80vh;
-   background: #EFECEC;
+   background: #383838;
+   border-top: #646060 solid 2px;
+   border-bottom: #646060 solid 2px;
    .content-wrapper{
       display: flex;
       flex-direction: column;
@@ -16,7 +18,7 @@
       }
       .content-text{
          h2{
-            color: #FC6736;
+            color: #94a7bf;
             margin-bottom: 30px;
             border-bottom-color: pink;
 
@@ -27,12 +29,9 @@
             p{
                font-size: 18px;
                line-height: 1.5;
-               border-top: #FC6736 .2px solid;
+               border-top: #646060 .2px solid;
                padding-top: 30px;
-               color: #000;
-               &:hover{
-                  color: #94a7bf;
-            }
+               color: #646060;
          }
 
       }
